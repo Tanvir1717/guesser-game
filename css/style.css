@@ -1,0 +1,79 @@
+/*-----
+Template Name : To Do List
+Author Name   : Tanvir Ahmed
+Author Link   : https://www.fiverr.com/tanvir4201?up_rollout=true
+Behance		: https://www.behance.net/tanvirahmed1717
+Facebook	: https://www.facebook.com/Tanvir1717/
+Tag           : Personal, Official
+-----*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    overflow: hidden;
+}
+
+body {
+    background: #c31432;
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    background: linear-gradient(to right, #240b36, #c31432);
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+.form-control {
+    width: 20%;
+}
+
+.guesses {
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #F2B138;
+}
+
+.lastResult {
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#newGame {
+    background-color: #240b36;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 30%;
+    margin: auto;
+}
+
+#newGame:hover {
+    cursor: pointer;
+    background-color: #c31432;
+}
+
+.lowOrHi h1 {
+    color: #1FA667;
+}
