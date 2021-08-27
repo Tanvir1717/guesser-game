@@ -98,6 +98,7 @@ function newGame() {
     })
 }
 
+if(previousGuesses.length !==0){
 restartBtn.addEventListener('click', function() {
     randomNumber = parseInt((Math.random() * 100) + 1);
     previousGuesses = [];
@@ -110,3 +111,4 @@ restartBtn.addEventListener('click', function() {
     playGame = true;
 
 });
+}
